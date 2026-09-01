@@ -1,0 +1,22 @@
+.cognitive-test-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.results-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+@media (max-width: 768px) {
+  .results-wrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
